@@ -8,7 +8,7 @@ This repository contains all the C programs that I have executed for my Data Str
 | :---: | :--- | :--- |
 | 1  | [1_ArithmeticOperations.c](https://github.com/rexgraystone/dataStructures/blob/master/1_ArithmeticOperations.c)  | A C program to calculate addition, subtraction, multiplication and division of two numbers. |
 | 2  | [2_SumAndReverse.c](https://github.com/rexgraystone/dataStructures/blob/master/2_SumAndReverse.c)  | A C program to find the sum of digits of a number and reverse the number. |
-| 3  | [3_MatrixAddition_Multiplication.c](https://github.com/rexgraystone/dataStructures/blob/master/3_MatrixAddition_Multiplication.c)  | A C program to add and multiply two matrices. |
+| 3  | [3_MatrixAddition.c](https://github.com/rexgraystone/dataStructures/blob/master/3_MatrixAddition.c)  | A C program to add two matrices. |
 | 4  | [4_MatrixMultiplication.c](https://github.com/rexgraystone/dataStructures/blob/master/4_MatrixMultiplication.c)  | A C program to multiply two matrices. |
 | 5  | [5_LandBSearch.c](https://github.com/rexgraystone/dataStructures/blob/master/5_LandBSearch.c)  | A C program to search an element in a 2D array using Linear Search and Binary Search algorithms. |
 | 6  | [6_InfixPrefix.c](https://github.com/rexgraystone/dataStructures/blob/master/6_InfixPrefix.c)  | A C program to convert an Infix expression to Prefix expression. |

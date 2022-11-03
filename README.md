@@ -52,29 +52,29 @@ This repository contains all the C programs that I have executed for my Data Str
 2. Clone the repository using the following command:
 
     ``` bash
-        gh repo clone rexgraystone/dataStructures
+    gh repo clone rexgraystone/dataStructures
     ```
 
     or
 
     ``` bash
-        git clone https://github.com/rexgraystone/dataStructures.git
+    git clone https://github.com/rexgraystone/dataStructures.git
     ```
 
 3. Change the directory to the cloned repository:
 
     ``` bash
-        cd dataStructures
+    cd dataStructures
     ```
 
 4. Compile the C program using the following command:
 
     ``` bash
-        gcc <C File Name> -o <Output File Name>
+    gcc <C File Name> -o <Output File Name>
     ```
 
 5. Run the program using the following command:
 
     ``` bash
-        ./<Output File Name>
+    ./<Output File Name>
     ```

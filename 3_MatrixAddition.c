@@ -13,7 +13,7 @@ void matrixAdd(int mat1[][COL], int mat2[][COL], int res[][COL]);
 
 int main()
 {
-    int mat1[ROW][COL], mat2[ROW][COL], res[ROW][COL], product[ROW][COL];
+    int mat1[ROW][COL], mat2[ROW][COL], res[ROW][COL];
     printf("Enter elements in first matrix of size %dx%d: \n", ROW, COL);
     matrixInput(mat1);
     printf("\nEnter elements in second matrix of size %dx%d: \n", ROW, COL);

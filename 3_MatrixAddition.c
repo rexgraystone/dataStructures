@@ -1,5 +1,5 @@
 /*
-    3. Write a program to add and multiply two matrices.
+    3. Write a program to add two matrices.
 */
 
 #include <stdio.h>
@@ -10,7 +10,6 @@
 void matrixInput(int mat[][COL]);
 void matrixPrint(int mat[][COL]);
 void matrixAdd(int mat1[][COL], int mat2[][COL], int res[][COL]);
-void matrixMultiply(int mat1[][COL], int mat2[][COL], int res[][COL]);
 
 int main()
 {
@@ -22,9 +21,6 @@ int main()
     matrixAdd(mat1, mat2, res);
     printf("\nSum of first and second matrix: \n");
     matrixPrint(res);
-    matrixMultiply(mat1, mat2, product);
-    printf("Product of both matrices is: \n");
-    matrixPrint(product);
     return 0;
 }
 
@@ -61,24 +57,6 @@ void matrixAdd(int mat1[][COL], int mat2[][COL], int res[][COL])
         for (j = 0; j < COL; j++)
         {
             *(*(res + i) + j) = *(*(mat1 + i) + j) + *(*(mat2 + i) + j);
-        }
-    }
-}
-
-void matrixMultiply(int mat1[][COL], int mat2[][COL], int res[][COL])
-{
-    int row, col, i;
-    int sum;
-    for (row = 0; row < ROW; row++)
-    {
-        for (col = 0; col < COL; col++)
-        {
-            sum = 0;
-            for (i = 0; i < COL; i++)
-            {
-                sum += (*(*(mat1 + row) + i)) * (*(*(mat2 + i) + col));
-            }
-            *(*(res + row) + col) = sum;
         }
     }
 }

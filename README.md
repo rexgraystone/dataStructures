@@ -27,7 +27,27 @@ This repository contains all the C programs that I have executed for my Data Str
 ## How to Run
 
 1. Ensure that you have a C compiler installed on your system. If not, you can download one from [here](https://sourceforge.net/projects/mingw/) or using your package manager.
-Additionaly, if you are using Windows, follow the steps specified [here](https://www.scaler.com/topics/c/c-compiler-for-windows/).
+
+    Examples:
+    - Ubuntu -
+
+    ```bash
+    sudo apt install gcc
+    ```
+
+    - Arch Linux -
+
+    ```bash
+    sudo pacman -S gcc
+    ```
+
+    - macOS -
+
+    ```bash
+    brew install gcc
+    ```
+
+    Additionaly, if you are using Windows, follow the steps specified [here](https://www.scaler.com/topics/c/c-compiler-for-windows/).
 
 2. Clone the repository using the following command:
 

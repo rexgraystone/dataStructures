@@ -1,5 +1,5 @@
 /*
-    5. Write a program to search an element in a 2D array using Linear Search and binarySearchary Search algorithm.
+    5. Write a program to search an element in a 2D array using Linear Search and Binary Search algorithms.
 */
 
 #include <stdio.h>

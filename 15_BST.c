@@ -1,5 +1,5 @@
 /*
-	15. Write a program for a given key element given a binary search tree.
+	15. Write a program to search for a key element given a binary search tree.
 */
 
 #include <stdlib.h> 

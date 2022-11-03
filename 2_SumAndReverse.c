@@ -1,5 +1,5 @@
 /*
-    Write a program to find rthe sum of digits of a number and reverse the number.
+    2. Write a program to find the sum of digits of a number and reverse the number.
 */
 
 #include <stdio.h>

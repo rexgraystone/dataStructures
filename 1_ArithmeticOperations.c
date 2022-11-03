@@ -1,5 +1,5 @@
 /*
-    1. Write a program to calculate addition, subtraction, multiplication and addition of two numbers.
+    1. Write a program to calculate addition, subtraction, multiplication and division of two numbers.
 */
 
 #include <stdio.h>

@@ -2,8 +2,8 @@
     14. Write a program to evaluate a polynomial expression.
 */
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 struct node { // Structure of a node
     int coef;

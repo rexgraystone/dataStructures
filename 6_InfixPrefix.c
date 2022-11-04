@@ -114,7 +114,7 @@ int prcd(char symbol) { // Return the priority of the operator
 	}
 }
 
-int isOperator(char symbol) { 
+int isOperator(char symbol) {
 	switch(symbol) {
 		        case '+':
 		        case '-':

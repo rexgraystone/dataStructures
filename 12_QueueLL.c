@@ -2,8 +2,8 @@
     12. Write a program to implement a queue using linked lists.
 */
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 struct node { // Structure of a node
     int data;

@@ -6,11 +6,9 @@
 
 int c=0;
 
-void tower(int n, char beg, char mid, char end)
-{
-    printf("%d. ", ++c);
-    if(n==1)
-    {
+void tower(int n, char beg, char mid, char end) { // Tower of Hanoi
+    printf("%d. ", ++c); // Print the step number
+    if(n==1) {
         printf("Move Disk 1 from Peg %c to Peg %c\n", beg, end);
         return;
     }  
@@ -19,8 +17,7 @@ void tower(int n, char beg, char mid, char end)
     tower(n-1, mid, beg, end);
 }
 
-int main()
-{
+int main() {
     int n;
     printf("\nEnter number of disks in A: ");
     scanf("%d", &n); 

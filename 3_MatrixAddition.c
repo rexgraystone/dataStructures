@@ -4,15 +4,14 @@
 
 #include <stdio.h>
 
-#define ROW  3
-#define COL  3
+#define ROW 3 
+#define COL 3
 
-void matrixInput(int mat[][COL]);
-void matrixPrint(int mat[][COL]);
-void matrixAdd(int mat1[][COL], int mat2[][COL], int res[][COL]);
+void matrixInput(int mat[][COL]); // Function to input elements in matrix
+void matrixPrint(int mat[][COL]); // Function to print elements of matrix
+void matrixAdd(int mat1[][COL], int mat2[][COL], int res[][COL]); // Function to add two matrices
 
-int main()
-{
+int main() {
     int mat1[ROW][COL], mat2[ROW][COL], res[ROW][COL];
     printf("Enter elements in first matrix of size %dx%d: \n", ROW, COL);
     matrixInput(mat1);
@@ -24,38 +23,29 @@ int main()
     return 0;
 }
 
-void matrixInput(int mat[][COL])
-{
+void matrixInput(int mat[][COL]) { 
     int i, j;
-    for (i = 0; i < ROW; i++)
-    {
-        for (j = 0; j < COL; j++)
-        {
+    for (i = 0; i < ROW; i++) { 
+        for (j = 0; j < COL; j++) { 
             scanf("%d", (*(mat + i) + j));
         }
     }
 }
 
-void matrixPrint(int mat[][COL])
-{
+void matrixPrint(int mat[][COL]) { 
     int i, j;
-    for (i = 0; i < ROW; i++)
-    {
-        for (j = 0; j < COL; j++)
-        {
+    for (i = 0; i < ROW; i++) {
+        for (j = 0; j < COL; j++) {
             printf("%d ", *(*(mat + i) + j));
         }
         printf("\n");
     }
 }
 
-void matrixAdd(int mat1[][COL], int mat2[][COL], int res[][COL])
-{
+void matrixAdd(int mat1[][COL], int mat2[][COL], int res[][COL]){
     int i, j; 
-    for (i = 0; i < ROW; i++)
-    {
-        for (j = 0; j < COL; j++)
-        {
+    for (i = 0; i < ROW; i++) {
+        for (j = 0; j < COL; j++) {
             *(*(res + i) + j) = *(*(mat1 + i) + j) + *(*(mat2 + i) + j);
         }
     }

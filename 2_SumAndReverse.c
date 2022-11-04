@@ -4,24 +4,20 @@
 
 #include <stdio.h>
 
-int sod(int n) 
-{
-    if(n==0) 
-    {
+int sumOfDigits(int n) { // sum of digits
+    if(n==0) {
         return 0;
     } 
-    else 
-    {
+    else { 
         printf("%d", n%10);
-        return (n%10)+sod(n/10);
+        return (n%10)+sumOfDigits(n/10);
     }
 }
 
-int main()
-{
+int main() {
     int n;
     printf("Enter a number: ");
     scanf("%d", &n);
-    printf("\n%d", sod(n));
+    printf("\n%d", sumOfDigits(n));
     return 0;
 }

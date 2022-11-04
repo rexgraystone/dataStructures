@@ -1,2 +1,3 @@
 .vscode/task.json
 *.out
+.vscode/settings.json
